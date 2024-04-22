@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 39, 30);
+}
+
+body{
+    height: 100vw;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    
+}
+.container{
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid red; */
+    /* background-color: gray; */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows:30% 30% 30%;
+
+}
+h2{
+    color: wheat;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 2rem;  
+    font-family: "Anta", sans-serif;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    background-color: wheat;
+    display: flex;
+    font-size: 10rem;
+    color: rgb(3, 23, 3);
+    font-family: "Anta", sans-serif;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.box:hover{
+    transform: scale(1.02);
+    border-radius: 10px;
+}
+.reset{
+    height: 3rem;
+    width: 8rem;
+    background-color: wheat;
+    color: rgb(65, 15, 15);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+.newBtn{
+    height: 3rem;
+    width: 8rem;
+    background-color: wheat;
+    color: rgb(65, 15, 15);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.msg-container{
+    height: auto;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
